@@ -270,9 +270,9 @@ func (p *Perlin) Noise3D(x, y, z float64) float64 {
 	var i int32
 	px := [3]float64{x, y, z}
 
-	if z < 0.0000 {
-		return p.Noise2D(x, y)
-	}
+	// if z < 0.0000 {
+	// 	return p.Noise2D(x, y)
+	// }
 
 	for i = 0; i < p.n; i++ {
 		val = p.noise3(px)
