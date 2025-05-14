@@ -1,3 +1,3 @@
-module github.com/aquilax/go-perlin
+module github.com/undefinedopcode/go-perlin
 
 go 1.13
